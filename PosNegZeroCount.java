@@ -5,7 +5,7 @@ public class PosNegZeroCount {
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-			Scanner sc = new Scanner(System.in);
+	    Scanner sc = new Scanner(System.in);
             int size = sc.nextInt();
             int[] input = new int[size];
            
@@ -16,7 +16,7 @@ public class PosNegZeroCount {
             
             sc.close();
             
-        	float pcount = 0;
+            float pcount = 0;
             float ncount = 0;
             float zcount = 0;
             float tot = 0;
